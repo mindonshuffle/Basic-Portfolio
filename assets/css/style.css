@@ -105,7 +105,7 @@ body{
 }
 
 #myPhoto{
-		height: 140px;
+		height: 180px;
 		margin-right: 20px;
 		margin-bottom: 20px;
 		/*width: 200px;*/
@@ -204,3 +204,16 @@ textarea{
 	width: 260px;
 	height: 200px;
 }
+
+.connectIcon:hover{
+	opacity: .5;
+}
+
+a:hover {
+	color: #ccc;
+}
+
+input[type=submit]:hover{
+	background-color: #ccc;
+}
+
