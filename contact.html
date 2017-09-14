@@ -4,35 +4,49 @@
 
 <head>
 	<title>Scott Foster -- Contact Me</title>
-	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">	
 </head>
 
 <body>
 	<header>
-		<div id="myName">Scott Foster</div>
-		<a href="index.html">About</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact</a>
+		<div id="viewHead">			
+			<div id="myName">Scott Foster</div>
+			<div id="navLinks">
+				<a href="index.html">About</a>&emsp;|&emsp;  
+				<a href="portfolio.html">Portfolio</a>&emsp;|&emsp; 
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
 	</header>
+
+<div id="viewBody">
 
 	<section id="mainBox">
 		<h1>Contact</h1>
+		<hr>
 		<form>
-			Name: <br>
+			Name <br>
 			<input type="text" placeholder="John Smith"><br>
-			Email: <br>
-			<input type="text" placeholder="example@gmail.com">
+			Email <br>
+			<input type="text" placeholder="example@gmail.com"><br>
+			Message <br>
+			<textarea></textarea><br>
+			<input type="submit">
+		</form>
 
 	</section>
 
 	<section id="connectBox">
 		<h2>Connect with Me</h2>
 		<hr>
-		<a href="">GitHub</a>
-		<a href="">LinkedIn</a>
-		<a href="">StackOverflow</a>
+		<a href=""><img class="connectIcon" src="assets/images/github.png"></a>
+		<a href=""><img class="connectIcon" src="assets/images/linkedin.png"></a>
+		<a href=""><img class="connectIcon" src="assets/images/stackoverflow.png"></a>
 	</section>
+
+</div>
+
 
 	<footer>
 		<div>&copy Copyright 2017 Scott Foster</div>

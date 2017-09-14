@@ -4,41 +4,69 @@
 
 <head>
 	<title>Scott Foster -- Portfolio</title>
-	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 	<header>
-		<div id="myName">Scott Foster</div>
-		<a href="index.html">About</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact</a>
+		<div id="viewHead">
+			<div id="myName">Scott Foster</div>
+			<div id="navLinks">
+				<a href="index.html">About</a>&emsp;|&emsp;  
+				<a href="portfolio.html">Portfolio</a>&emsp;|&emsp; 
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
 	</header>
+
+<div id="viewBody">
 
 	<section id="mainBox">
 		<h1>Portfolio</h1>
 		<hr>
-		<img src="assets/images/portfolio1.jpg">
-		<div>Portfolio 1 Label**</div>
-		<img src="assets/images/portfolio2.jpg">
-		<div>Portfolio 2 Label**</div>
-		<img src="assets/images/portfolio3.jpg">
-		<div>Portfolio 3 Label**</div>
-		<img src="assets/images/portfolio4.jpg">
-		<div>Portfolio 4 Label**</div>
-		<img src="assets/images/portfolio5.jpg">
-		<div>Portfolio 5 Label**</div>
+		<div class=portBoxLeft>
+			<img class="portImage" src="assets/images/portfolio1.jpg">
+			<div class="portLabel"><h3>Portfolio 1</h3></div>
+		</div>
+
+		<div class=portBoxRight>
+			<img class="portImage" src="assets/images/portfolio2.jpg">
+			<div class="portLabel"><h3>Portfolio 2</h3></div>
+		</div>
+
+		<br style="clear: both">
+
+		<div class=portBoxLeft>
+			<img class="portImage" src="assets/images/portfolio3.jpg">
+			<div class="portLabel"><h3>Portfolio 3</h3></div>
+		</div>
+
+		<div class=portBoxRight>
+			<img class="portImage" src="assets/images/portfolio4.jpg">
+			<div class="portLabel"><h3>Portfolio 4</h3></div>
+		</div>
+
+		<br style="clear: both">
+
+		<div class=portBoxLeft>
+			<img class="portImage" src="assets/images/portfolio5.jpg">
+			<div class="portLabel"><h3>Portfolio 5</h3></div>
+		</div>
+
+		<br style="clear: both">
 
 	</section>
 
 	<section id="connectBox">
 		<h2>Connect with Me</h2>
 		<hr>
-		<a href="">GitHub</a>
-		<a href="">LinkedIn</a>
-		<a href="">StackOverflow</a>
+		<a href=""><img class="connectIcon" src="assets/images/github.png"></a>
+		<a href=""><img class="connectIcon" src="assets/images/linkedin.png"></a>
+		<a href=""><img class="connectIcon" src="assets/images/stackoverflow.png"></a>
 	</section>
+
+</div>
 
 	<footer>
 		<div>&copy Copyright 2017 Scott Foster</div>
