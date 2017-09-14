@@ -2,9 +2,19 @@ section {
 
 }
 
-#viewport{
+#viewHead{
+	position: relative;
 	border: 1px solid;
 	width: 960px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#viewBody{
+	position: relative;
+	border: 1px solid;
+	width: 960px;
+	/*height: 100px;*/
 	margin: 0 auto;
 }
 
@@ -42,32 +52,38 @@ body{
 }
 
 #mainBox{
-	/*float: left;*/
+	float: left;
 	background: #fff;
-	margin-top: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	padding: 20px;
-	width: 650px;
+	width: 610px;
+	line-height: 150%;
 }
 
 #connectBox{
-	margin-top: 20px;
-	/*float: left;*/
+	margin-top: 40px;
+	padding: 20px;
+	float: right;
 	background: #fff;
-	width: 270px;
+	width: 230px;
 }
 
 .connectIcon{
-	width: 80px;
-	height: 80px;
+	width: 60px;
+	height: 60px;
 }
 
 #myPhoto{
-		height: 200px;
+		height: 150px;
+		margin-right: 20px;
+		margin-bottom: 20px;
 		/*width: 200px;*/
 		float: left;
 }
 
 #myName{
+	z-index: 2;
 	flow: left;
 	font-size: 250%;
 	color: white;
@@ -77,13 +93,14 @@ body{
 	padding: 20px;
 	position: absolute;
 	bottom: 0;
-	left: 30px;
+	left: 0px;
 }
 
 #navLinks{
-	flow: left;
-	position: absolute;
-	right:0;
+	flow: right;
+	/*position: absolute;
+	right:0;*/
+	margin: 0 auto;
 	padding: 20px;
 }
 
